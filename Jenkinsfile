@@ -1,6 +1,7 @@
 pipeline {
     agent any
 
+
     environment {
         REMOTE_HOST = "ec2-user@3.83.159.54"
         PEM_PATH = "/.ssh-keys/docker-vm2-key.pem"
