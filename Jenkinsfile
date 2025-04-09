@@ -3,7 +3,7 @@ pipeline {
 
 
     environment {
-        REMOTE_HOST = "ec2-user@3.82.46.188"
+        REMOTE_HOST = "ec2-user@13.218.175.104"
         PEM_PATH = "/.ssh-keys/docker-vm.pem"
         REPO_URL = "https://github.com/HMCMisCreating/multijuegos"
         REPOS_DIR = "/home/ec2-user/github-repos"
